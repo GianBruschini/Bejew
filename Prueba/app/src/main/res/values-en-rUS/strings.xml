@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Test</string>
+    <string name="salir">Exit</string>
+    <string name="jugar">Play</string>
+    <string name="Refrescar">Refresh</string>
+    <string name="Terminar">Finish</string>
+    <string name="Puntaje">Score:</string>
+    <string name="text_view">Congratulations! you are in the top 10. do you want to figure?</string>
+
+</resources>

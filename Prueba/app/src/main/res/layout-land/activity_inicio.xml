@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/casa"
+    android:id="@+id/linear"
+    >
+
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Bejeweled"
+        android:textSize="34sp"
+        android:textColor="#FFEB3B"
+        android:fontFamily="@font/espacio"
+        android:typeface="serif"
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        >
+
+
+
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="Jugar"
+            android:textSize="25sp"
+            android:background="@android:color/transparent"
+            android:text="@string/jugar"
+            android:textColor="#ffff"
+            android:layout_marginBottom="20dp"
+            />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ranking"
+            android:textSize="25sp"
+            android:textColor="#ffff"
+            android:background="@android:color/transparent"
+            android:onClick="Rank"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/salir"
+            android:textSize="25sp"
+            android:textColor="#ffff"
+            android:background="@android:color/transparent"
+            android:onClick="Exit" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

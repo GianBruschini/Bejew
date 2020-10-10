@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Prueba</string>
+    <string name="salir">Salir</string>
+    <string name="jugar">Jugar</string>
+    <string name="Refrescar">Refrescar</string>
+    <string name="Terminar">Terminar</string>
+    <string name="Puntaje">Puntaje:</string>
+    <string name="text_view">Felicitaciones! usted esta en el top 10. Desea figurar?</string>
+
+
+
+
+
+</resources>

@@ -1,0 +1,203 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:paddingLeft="16dp"
+     android:paddingRight="16dp"
+     android:orientation="vertical"
+     android:background="@drawable/castle">
+
+     <TextView
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="RANKING"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:fontFamily="@font/spacebar"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/text"
+        />
+
+
+     <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:rowCount="2">
+
+        <TextView
+            android:id="@+id/user1"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/score1"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/user2"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/score2"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/user3"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/score3"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/user4"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/score4"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/user5"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/score5"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/user6"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/score6"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/user7"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/score7"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/user8"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/score8"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/user9"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/score9"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/user10"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/score10"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp" />
+
+
+     </GridLayout>
+ </RelativeLayout>
+</ScrollView>
